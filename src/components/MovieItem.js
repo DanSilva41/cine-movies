@@ -1,5 +1,5 @@
 export const MovieItem = ({ title }) => (
-    <li>
+    <li key={title}>
         {title}
     </li>
 )
